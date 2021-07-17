@@ -93,16 +93,15 @@ var swiper = new Swiper(".portfolio__container", {
   cssMode: true,
   loop: true,
   navigation: {
-    loop: true,
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
-    loop: true,
   },
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
   },
-
+  mousewheel: true,
+  keyboard: true,
 });
 /*==================== TESTIMONIAL ====================*/
 let swiperTestimonial = new Swiper(".testimonial__container", {

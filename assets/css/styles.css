@@ -500,9 +500,52 @@ home__subtitle {
 }
 
 .skills__html {
-  width: 90%;
+  width: 80%;
 }
 
+.skills__css {
+  width: 70%;
+}
+
+.skills__php {
+  width: 75%;
+}
+
+.skills__js {
+  width: 65%;
+}
+
+.skills__ts {
+  width: 60%;
+}
+
+.skills__jv {
+  width: 80%;
+}
+
+.skills__go {
+  width: 40%;
+}
+
+.skills__py {
+  width: 45%;
+}
+
+.skills__react {
+  width: 60%;
+}
+.skills__laravel {
+  width: 80%;
+}
+.skills__nest {
+  width: 70%;
+}
+.skills__django {
+  width: 45%;
+}
+.skills__next {
+  width: 50%;
+}
 .skills__close .skills__list {
   height: 0;
   overflow: hidden;
@@ -1210,41 +1253,44 @@ home__subtitle {
 }
 
 /* For large devices */
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px) {
   .header,
   .main,
-  .footer__container{
+  .footer__container {
     padding: 0;
   }
 
-  .home__blob{
+  .container {
+    max-width: 50;
+    margin-left: var(--mb-2);
+    margin-right: var(--mb-2);
+  }
+
+  .home__blob {
     width: 320px;
   }
 
-  .home__social{
+  .home__social {
     transform: translateX(-6rem);
   }
-  .services__content{
+  .services__content {
     grid-template-columns: repeat(3, 238px);
   }
 
-  .qualification__data {
-  }
-  .portfolio__content{
+  .portfolio__content {
     column-gap: 5rem;
   }
 
-  .swiper-portfolio-icon{
+  .swiper-portfolio-icon {
     font-size: 3.5rem;
   }
-  .swiper-button-prev{
+  .swiper-button-prev {
     left: 3.5rem;
   }
-  .swiper-button-next{
+  .swiper-button-next {
     right: 3.5rem;
   }
-  .swiper-container-horizontal > .swiper-pagination-bullets{
+  .swiper-container-horizontal > .swiper-pagination-bullets {
     bottom: -4.5rem;
   }
-  
 }
